@@ -20,7 +20,7 @@ Since this extension isn't on the Chrome Web Store, you'll need to install it in
 
 1. **Download the extension**:
    - Clone this repository or download it as a ZIP file and extract it
-   - `git clone https://github.com/yourusername/yc-countdown-ext.git` or download the ZIP
+   - `git clone https://github.com/Masony817/yc-demo-countdown-ext.git` or download the ZIP
 
 2. **Open Chrome Extensions page**:
    - Open Chrome and navigate to `chrome://extensions/`
