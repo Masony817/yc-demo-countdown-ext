@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>YC DemoDay Countdown</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+          <div id="logo-container">
+            <img id="logo" src="images/ycombinator.svg" alt="Y Combinator Logo">
+          </div>
+          <div id="content">
+            <div id="title">Countdown to YC Demo Day</div>
+            <div id="timer">
+              <div class="time-section">
+                <span id="days">00</span>
+                <span class="time-label">day</span>
+              </div>
+              <span class="separator">:</span>
+              <div class="time-section">
+                <span id="hours">00</span>
+                <span class="time-label">hr</span>
+              </div>
+              <span class="separator">:</span>
+              <div class="time-section">
+                <span id="minutes">00</span>
+                <span class="time-label">min</span>
+              </div>
+              <span class="separator">:</span>
+              <div class="time-section">
+                <span id="seconds">00</span>
+                <span class="time-label">sec</span>
+              </div>
+            </div>
+            <span id="confetti" style="display: none;">🎊</span>
+            <div id="batch-container">
+              <div id="batch-info">X25</div>
+              <div id="progress-container">
+                <div id="progress-bar"></div>
+                <div id="progress-text">0%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script src="popup.js"></script>
+      </body>
+</html>
